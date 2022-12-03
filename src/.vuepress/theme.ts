@@ -11,7 +11,7 @@ export default hopeTheme({
 
   // 文章显示的默认作者
   author: {
-    name: "靓仔兼有型",
+    name: "Mr.Wang",
     url: "https://github.com/monsterxxp",
   },
 
@@ -19,7 +19,7 @@ export default hopeTheme({
   iconAssets: "iconfont",
 
   // 网站图标
-  logo: "/site_logo.png",
+  logo: "/logo-tomcat.png",
 
   // 导航栏上的个人仓库地址
   repo: "https://github.com/monsterxxp",

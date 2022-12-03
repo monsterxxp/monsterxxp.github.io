@@ -14,8 +14,8 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "小佟の学习笔记",
-      description: "小佟の学习笔记",
+      title: "小王の学习笔记",
+      description: "小王の学习笔记",
       // 设置favicon
       head: [['link', { rel: 'icon', href: '/favicon.svg' }]],
     },
