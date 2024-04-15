@@ -3,9 +3,12 @@
 layout: home
 
 hero:
-  name: "My Awesome Project111"
-  text: "A VitePress Site222"
-  tagline: My great project tagline
+  name: VitePress
+  text: Vite & Vue powered static site generator.
+  tagline: Lorem ipsum...
+  image:
+    src: /logo.png
+    alt: VitePress
   actions:
     - theme: brand
       text: Markdown Examples
@@ -15,11 +18,22 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 🛠️
+    title: Simple and minimal, always
+    details: Lorem ipsum...
+  - icon: 🛠️
+    title: Another cool feature
+    details: Lorem ipsum...
+  - icon: 🛠️
+    title: Another cool feature
+    details: Lorem ipsum...
 ---
 
+## Getting Started
+
+You can get started using VitePress right away using `npx`!
+
+```sh
+npm init
+npx vitepress init
+```
