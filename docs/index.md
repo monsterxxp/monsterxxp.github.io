@@ -1,39 +1,16 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
-hero:
-  name: VitePress
-  text: Vite & Vue powered static site generator.
-  tagline: Lorem ipsum...
-  image:
-    src: /logo.png
-    alt: VitePress
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
-  - icon: 🛠️
-    title: Another cool feature
-    details: Lorem ipsum...
-  - icon: 🛠️
-    title: Another cool feature
-    details: Lorem ipsum...
+# 首页部分元素定制
+blog:
+ name: '@sugarat/theme'
+ motto: 简约风的 Vitepress 博客主题
+ inspiring:
+  - 基于 Vitepress 定制的主题🎨
+  - 千万不要因为走得太久，而忘记了我们为什么出发
+  - 人生就像一场修行，你不可能一开始就修成正果
+  - 无论多么沉重的负担，也不要忘记微笑；无论多么漫长的路程，也不要忘记坚持
+  - 生活的真谛不在繁华，而在于淡泊
+ # 设置 inspiringTimeout 可以实现自动切换
+ inspiringTimeout: 3000
+ pageSize: 6
 ---
-
-## Getting Started
-
-You can get started using VitePress right away using `npx`!
-
-```sh
-npm init
-npx vitepress init
-```
