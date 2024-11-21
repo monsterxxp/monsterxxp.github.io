@@ -46,7 +46,11 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
-      // { text: '学习笔记', link: '/studyNotes/test' },
+      { text: '学习笔记', 
+        items: [
+          { text: 'Nginx', link: '/studyNotes/nginx/2024-11-21' },
+        ]
+      },
       { text: '问题记录', link: '/problemRecord/2022-06-09' },
       // { text: '关于作者', link: 'https://sugarat.top/aboutme.html' }
     ],
