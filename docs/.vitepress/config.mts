@@ -49,6 +49,7 @@ export default defineConfig({
       { text: '学习笔记', 
         items: [
           { text: 'Nginx', link: '/studyNotes/nginx/2024-11-21' },
+          { text: 'Linux', link: '/studyNotes/linux/2024-12-04' }
         ]
       },
       { text: '问题记录', link: '/problemRecord/2022-06-09' },
